@@ -1,0 +1,59 @@
+@prefix e: <http://example.org/ex> .
+@prefix b: <http://example.org/ItemOntology> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+
+
+e:cottage01 rdf:type b:Item; 
+	b:itemID "01"; 
+	b:hasName "Cottage Name 1"; 
+	b:hasAddress "No.28, Taitoniekantie, Jyvaskyla"
+	b:hasPlaces "1"; 
+	b:hasBedrooms "1";
+    b:hasDistanceFromLake "100";
+    b:isLocatedNearCity "City1" ;
+    b:hasDistanceFromCity "10" ;
+    b:hasImageURL <http://www.example.com/cottage1.jpg> .
+
+e:cottage02 rdf:type b:Item; 
+	b:itemID "02"; 
+	b:hasName "Cottage Name 2" ;
+	b:hasAddress "No.105, Nuortenkatu, Rovaniemi"
+    b:hasPlaces "2" ;
+    b:hasBedrooms "2" ;
+    b:hasDistanceFromLake "200" ;
+    b:isLocatedNearCity "City2" ;
+    b:hasDistanceFromCity "20" ;
+    b:hasImageURL <http://www.example.com/cottage2.jpg> .
+
+e:cottage03 rdf:type b:Item; 
+	b:itemID "03"; 
+	b:hasName "Cottage Name 3" ;
+	b:hasAddress "No.32, Isokatu, Oulu"
+    b:hasPlaces "3" ;
+    b:hasBedrooms "3" ;
+    b:hasDistanceFromLake "300" ;
+    b:isLocatedNearCity "City3" ;
+    b:hasDistanceFromCity "30" ;
+    b:hasImageURL <http://www.example.com/cottage3.jpg> .
+
+e:cottage04 rdf:type b:Item; 
+	b:itemID "04"; 
+	b:hasName "Cottage Name 4" ;
+	b:hasAddress "No.56, Nekalantie, Tampere"
+    b:hasPlaces "4" ;
+    b:hasBedrooms "4" ;
+    b:hasDistanceFromLake "400" ;
+    b:isLocatedNearCity "City4" ;
+    b:hasDistanceFromCity "40" ;
+    b:hasImageURL <http://www.example.com/cottage4.jpg> .
+
+e:cottage05 rdf:type b:Item; 
+	b:itemID "05"; 
+	b:hasName "Cottage Name 5" ;
+	b:hasAddress "No.67, Ratapihankatu, Turku"
+    b:hasPlaces "5" ;
+    b:hasBedrooms "5" ;
+    b:hasDistanceFromLake "500" ;
+    b:isLocatedNearCity "City5" ;
+    b:hasDistanceFromCity "50" ;
+    b:hasImageURL <http://www.example.com/cottage5.jpg> . 

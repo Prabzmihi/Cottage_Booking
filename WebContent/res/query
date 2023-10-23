@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX e: <http://example.org/ex>
+PREFIX b: <http://example.org/ItemOntology>
+
+
+SELECT ?itemId 
+WHERE {  ?item rdf:type b:Item. 
+         ?item b:hasName "p1".
+         ?item b:hasPlaces "p2".
+         ?item b:hasBedrooms "p3".
+         ?item b:hasDistanceFromLake "p4".
+         ?item b:isLocatedNearCity "p5".
+         ?item b:hasDistanceFromCity "p6".
+         ?item b:hasParam07 "p7".
+         ?item b:hasParam08 "p8".
+         ?item b:hasParam09 "p9".
+         ?item b:itemID ?itemId.
+      }
